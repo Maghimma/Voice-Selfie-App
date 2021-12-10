@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+body {
+	color: white;
+	text-align: center;
+	background-image: url("colourful bg.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Amatic SC';
+}
+
+h1,h2,h3,h4,p {
+	font-family: 'Amatic SC';
+	font-weight: bold;
+	color: white;
+}
+
+label {
+	font-family: 'Amatic SC';
+}
+
+button {
+	font-family: 'Amatic SC';
+	color: white;
+	background-image: linear-gradient(90deg,#de72e7, #c97dfc , #6182fd , #94f8ff);
+	border-radius: 10px;
+	width: 85px;
+	height: 35px;
+	border-color: none;
+	font-weight: bolder;
+	border: none;
+}
+
+input, textarea {
+	background-image: linear-gradient(90deg,#de72e7, #c97dfc , #6182fd , #94f8ff);
+	border-radius: 10px;
+	width: 350px;
+	height: 35px;
+	font-family: 'Amatic SC';
+	color: white;
+	margin-left: 20px;
+	border: none;
+}
+
+#start-btn {
+    width: 40%;
+} 
+
+#camera {
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+
+#textbox {
+    width: 300px;
+}
